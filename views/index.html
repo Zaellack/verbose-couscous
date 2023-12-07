@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quizz Website Authentication</title>
+  <link rel="stylesheet" href="/css/style.css"> <!-- Add any additional styling here -->
+</head>
+<body>
+  <div class="container">
+    <h2>Quizz Website Authentication</h2>
+
+    <!-- Registration Form -->
+    <form action="/register" method="post">
+      <h3>Register</h3>
+      <label for="regUsername">Username:</label>
+      <input type="text" id="regUsername" name="username" required>
+      <label for="regPassword">Password:</label>
+      <input type="password" id="regPassword" name="password" required>
+      <button type="submit">Register</button>
+    </form>
+
+    <!-- Login Form -->
+    <form action="/login" method="post">
+      <h3>Login</h3>
+      <label for="loginUsername">Username:</label>
+      <input type="text" id="loginUsername" name="username" required>
+      <label for="loginPassword">Password:</label>
+      <input type="password" id="loginPassword" name="password" required>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  <script src="/js/main.js"></script> <!-- Add any additional JavaScript here -->
+</body>
+</html>
